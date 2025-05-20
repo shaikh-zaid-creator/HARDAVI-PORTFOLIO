@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - HARDAVI MANGAR</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Scores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">HARDAVI MANGAR</span>
+          </h2>
+          <div class="profile-image d-md-none text-center my-4">
+            <img src="profile pic.jpg" alt="Profile" class="img-fluid rounded-circle" style="max-width: 200px;">
+          </div>
+          <p class="text-muted">
+            I'm currently a First year student majoring in Information Technology at MIT Academy of Engineering. I am passionate about IT. Through my coursework and personal projects, I've developed a strong foundation in skills and technologies, and I'm excited to apply my knowledge in real-world scenarios. I'm eager to connect with professionals in the industry and continue growing as both a student and a future professional.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="#portfolio" class="link ms-4">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block" data-aos="slide-left">
+          <img src="profile pic.jpg" alt="Profile" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Vision</small>
+        <h3>CAREER OBJECTIVE</h3>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <p class="text-muted">
+                Aspiring IT Engineer with a strong foundation in software development, problem-solving, and system design, seeking to contribute to innovative tech solutions in a dynamic and growth-oriented environment
+              </p>
+              <p class="text-muted">
+                Passionate about leveraging emerging technologies to build scalable and efficient systems while continuously enhancing my skills to keep pace with the fast-evolving IT landscape
+              </p>
+              <p class="text-muted">
+                I aim to contribute effectively to innovative teams, continuously learn, and grow as a competent engineer in the technology industry.
+              </p>
+              <p class="text-muted">
+                Eager to be part of an organization that values creativity, collaboration, and continuous improvement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">30%</span>
+                </div>
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">20%</span>
+                </div>
+                <br />
+                <span class="text">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">20%</span>
+                </div>
+                <br />
+                <span class="text">Python</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">30%</span>
+                </div>
+                <br>
+                <span class="text">SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Experience</h3>
+            <p class="text-muted">
+              Currently a first-year undergraduate student actively involved in campus activities and academic projects. Volunteered with the Environmental Club to organize awareness campaigns and events, developing teamwork and communication skills.
+            </p>
+            <p class="text-muted">
+              Completed an introductory programming project using Python, gaining foundational knowledge in coding and problem-solving
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <a href="resume.pdf" download style="text-decoration: none; color: #fff;">Download CV</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Portfolio</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <button class="filter-item active" data-filter="all">All</button>
+        <button class="filter-item" data-filter="dance">Dance</button>
+        <button class="filter-item" data-filter="hackathon">Hackathon</button>
+        <button class="filter-item" data-filter="nasscom">NASSCOM</button>
+      </div>
+
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 dance all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="Dance.jpg" alt="Dance Competition" class="card-img-top" />
+              <div class="card-body text-center">
+                <h4 class="card-title">DANCE COMPETITIONS</h4>
+                <span class="badge bg-secondary badge-pill">HIPHOP</span>
+                <span class="badge bg-secondary badge-pill">FREE STYLE</span>
+                <span class="badge bg-secondary badge-pill mb-2">CLASSICAL</span>
+                <br />
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 hackathon all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="HACKATHON.jpg" class="card-img-top" alt="Hackathon" />
+              <div class="card-body text-center">
+                <h4 class="card-title">HACKATHON</h4>
+                <span class="badge bg-secondary badge-pill">HTML & CSS</span>
+                <br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 nasscom all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="NASSCOM.jpg" class="card-img-top" alt="NASSCOM" />
+              <div class="card-body text-center">
+                <h4 class="card-title">NASSCOM</h4>
+                <span class="badge bg-secondary badge-pill">AI Overview</span>
+                <span class="badge bg-secondary badge-pill">AI Applications</span>
+                <span class="badge bg-secondary badge-pill mb-2">IoT Applications</span>
+                <br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <small>My Scores</small>
+        <h3>Academic Profile</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="NH.jpg" class="card-img-top rounded-4" alt="College" />
+            <div class="card-body px-4">
+              <small>Passout by</small>
+              <span class="ms-3">Mar 8, 2022</span>
+              <h4 class="card-title">
+                <a href="">NEVJABAI HITAKARINI COLLEGE</a>
+              </h4>
+              <p class="text-muted">
+                Behind N.H. College, Forest Colony, Brahmapuri, Maharashtra 441206.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="lmb.jpg" class="card-img-top rounded-4" alt="School" />
+            <div class="card-body px-4">
+              <small>Passout By</small>
+              <span class="ms-3">Jun 30, 2024</span>
+              <h4 class="card-title">
+                <a href="">Late Madangopalji Bhaiya Public School</a>
+              </h4>
+              <p class="text-muted">
+                Brahmapuri, Forest Colony, Bramhapuri, Forest Colony, Bramhapuri - 441206
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="Mit.jpg" class="card-img-top rounded-4" alt="MIT" />
+            <div class="card-body px-4">
+              <small>Passout By</small>
+              <span class="ms-3">May 29, 2028</span>
+              <h4 class="card-title">
+                <a href="">MIT Academy of Engineering</a>
+              </h4>
+              <p class="text-muted">
+                Dehu Phata, Pune, Maharashtra 412105.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>121 Hindavi Colony Alandi, Pune, India</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+918788605371</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>mangarhardavi@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="col-11">
+              <p>hardavimangar05.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="mobile"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="message"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+    <!-- Back to Top Button -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">Skills</a>
+        <div class="vr"></div>
+        <a href="#service">Work</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Scores</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+      <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+    <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+  </body>
+</html> 
